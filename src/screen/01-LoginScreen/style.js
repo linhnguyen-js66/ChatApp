@@ -1,0 +1,40 @@
+import {StyleSheet} from 'react-native'
+export default StyleSheet.create({
+    head:{
+        justifyContent:'center',
+        alignItems:'center',
+        marginTop:64
+    },
+    login:{
+        fontSize:24,
+        fontWeight:'bold'
+    },
+    containChatApptext:{
+        marginTop:16,
+        flexDirection:'row'
+    },
+    textChatapp:{
+        fontWeight:'bold',
+        fontSize:30,
+        color:'#004080',
+        marginRight:8
+    },
+    AuthInput:{
+        marginHorizontal:32
+    },
+    Button:{
+        marginTop:64,
+        marginHorizontal:32
+    },
+    signUpNavigation:{
+        flexDirection:'row',
+        alignItems:'center',
+        justifyContent:'center',
+        marginTop:32
+    },
+    textsignUpNavigation:{
+        fontSize:17, 
+        marginRight:8,
+        color:'#595959'
+    }
+})
